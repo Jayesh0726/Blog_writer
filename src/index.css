@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 22px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* You can set a background color if needed */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #696969; /* Use background-color instead of color */
+    border-radius: 50px;
+    border: 0.5rem solid transparent;
+    background-clip: content-box;
+    z-index: 10;
+  }
