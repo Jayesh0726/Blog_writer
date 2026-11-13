@@ -24,7 +24,7 @@ function App() {
   
   return !loading ? (
     <div className='h-[100vh] w-[100vw] overflow-x-hidden bg-neutral-900'>
-      <div className='w-full block'>
+      <div className='w-full block h-full'>
       {isAuthenticated && <Header />}
         <main>
          <Outlet />
